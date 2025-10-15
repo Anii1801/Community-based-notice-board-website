@@ -372,5 +372,29 @@
         <p class="text-center text-sm text-gray-500">LocalLink Project for Seva Sankalp Foundation, Meerut | Social Internship Technical Contribution</p>
     </footer>
 
+
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore-compat.js"></script>
+  
+  <script>
+    // Paste your Firebase config object here
+    const firebaseConfig = {
+      apiKey: "AIzaSy...",
+      authDomain: "your-project-id.firebaseapp.com",
+      projectId: "your-project-id",
+      storageBucket: "your-project-id.appspot.com",
+      messagingSenderId: "123456789",
+      appId: "1:123456789:web:abcdef..."
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+    // Your custom script to save posts
+    // For example:
+    const db = firebase.firestore();
+    // ... rest of your code
+  </script>
 </body>
 </html>
+
